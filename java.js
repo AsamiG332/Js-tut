@@ -96,12 +96,19 @@
 // let randomNumRoundToFloor=Math.floor(number)
 // console.log(randomNumRoundToFloor)
 
-let word='JavaScript';
+// let word='JavaScript';
 // console.log(word.length)
 
-let random=Math.random()
-let number=random * word.length+1
-console.log(number)
-let randomNumRoundToFloor=Math.floor(number)
-console.log(randomNumRoundToFloor)
-console.log(word[randomNumRoundToFloor])
+// let random=Math.random()
+// let number=random * word.length+1
+// console.log(number)
+// let randomNumRoundToFloor=Math.floor(number)
+// console.log(randomNumRoundToFloor)
+// console.log(word[randomNumRoundToFloor])
+// console.log('1\t1\t1\t1\t1\n2\t1\t2\t4\t8\n3\t1\t3\t9\t27\n4\t1\t4\t16\t64\n5\t1\t5\t25\t125');
+
+let phrase='You cannot end a sentence with because because because is a conjunction';
+let start= phrase.indexOf('because because because');
+let result=phrase.substr(start,'because because because'.length);
+
+
