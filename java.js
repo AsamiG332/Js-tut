@@ -130,6 +130,21 @@
 // console.log('10'===10);
 // console.log(parseInt('9.8')===10);
 
+// const Text = "hello";
+// const Number = 123;
+// const Object = {};
+// console.log(Boolean(Text));
+// console.log(Boolean(Number));
+// console.log(Boolean(Object));
+
+const nothing=null;
+const number=0;
+const zero='';
+
+console.log(Boolean(nothing));
+console.log(Boolean(number));
+console.log(Boolean(zero));
+
 
 
 
