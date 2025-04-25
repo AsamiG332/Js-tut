@@ -107,8 +107,35 @@
 // console.log(word[randomNumRoundToFloor])
 // console.log('1\t1\t1\t1\t1\n2\t1\t2\t4\t8\n3\t1\t3\t9\t27\n4\t1\t4\t16\t64\n5\t1\t5\t25\t125');
 
-let phrase='You cannot end a sentence with because because because is a conjunction';
-let start= phrase.indexOf('because because because');
-let result=phrase.substr(start,'because because because'.length);
+// let phrase='You cannot end a sentence with because because because is a conjunction';
+// let start= phrase.indexOf('because because because');
+// let result=phrase.substr(start,'because because because'.length);
+
+// let name='Grace';
+// let lastname='Darasimi';
+// let country='Nigeria';
+// let city='Abuja';   
+// let age=31;
+// let ismarried=false;
+// let year=2024;
+
+// console.log(typeof name);
+// console.log(typeof lastname);
+// console.log(typeof country);
+// console.log(typeof city);
+// console.log(typeof age);
+// console.log(typeof ismarried);
+// console.log(typeof year);
+
+// console.log('10'===10);
+// console.log(parseInt('9.8')===10);
+
+
+
+
+
+
+
+
 
 
