@@ -137,13 +137,84 @@
 // console.log(Boolean(Number));
 // console.log(Boolean(Object));
 
-const nothing=null;
-const number=0;
-const zero='';
+// const nothing=null;
+// const number=0;
+// const zero='';
 
-console.log(Boolean(nothing));
-console.log(Boolean(number));
-console.log(Boolean(zero));
+// console.log(Boolean(nothing));
+// console.log(Boolean(number));
+// console.log(Boolean(zero));
+
+
+
+// console.log( 4 > 3);
+// console.log(4 >= 3);
+//  console.log(4 < 3);
+ 
+// console.log(4 <= 3);
+// console.log(4 == 4);
+// console.log(4 === 4);
+// console.log(4 != 4);
+// console.log(4 !== 4);
+// console.log(4 != '4');
+// console.log(4 == '4');
+// console.log(4 === '4');
+
+
+// const pythonlength='python';
+// const jargonlength='jargon';
+
+// console.log(pythonlength.length);
+// console.log(jargonlength.length);
+// console.log(pythonlength < jargonlength);
+
+// console.log(4 > 3 && 10 < 12);
+// console.log(4 > 3 && 10 > 12);
+// console.log(4 > 3 || 10 < 12);
+// console.log( 4 > 3 || 10 > 12);
+// console.log(!(4 > 3));
+// console.log(!(4 < 3));
+// console.log(!(false));
+// console.log(!(4 > 3 && 10 < 12));
+// console.log(!(4 > 3 && 10 > 12));
+// console.log(!(4 === '4'));
+
+// const numbers=[33,2,8];
+// numbers.sort();
+// console.log(numbers[1]);
+// console.log(1 + "2" + "2");
+// console.log(typeof NaN);
+
+// console.log(('b' + 'a' + + 'a' + 'a').toLowerCase());
+// console.log("This is a String." instanceof String);
+// const isTrue = true == [];
+// const isFalse = true == ![];
+// console.log(isTrue + isFalse);
+
+// console.log(typeof typeof 1);
+// console.log(3 > 2 > 1);
+console.log(018 - 015);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
