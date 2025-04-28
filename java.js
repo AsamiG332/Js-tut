@@ -193,7 +193,8 @@
 
 // console.log(typeof typeof 1);
 // console.log(3 > 2 > 1);
-console.log(018 - 015);
+// console.log(018 - 015);  
+
 
 
 
