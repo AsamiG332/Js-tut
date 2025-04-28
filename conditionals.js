@@ -42,36 +42,72 @@
     
 
 
-let today='tuesday'
-if (today=='Monday'){
-    console.log('No Service')
-// }else{
-//     console.log('')
-// 
-}
+// let today='tuesday'
+// if (today=='Monday'){
+//     console.log('No Service')
+// // }else{
+// //     console.log('')
+// // 
+// }
 
-else if(today=="tuesday"){ 
-    console.log("healing and deliverance service")
+// else if(today=="tuesday"){ 
+//     console.log("healing and deliverance service")
     
-}
-else if(today=="wednesday"){ 
-    console.log("power communion service")
+// }
+// else if(today=="wednesday"){ 
+//     console.log("power communion service")
     
-}
-else if(today=="thursday"){
-    console.log("counselors meeting")
+// }
+// else if(today=="thursday"){
+//     console.log("counselors meeting")
     
-}
-else if(today=="friday"){ 
-    console.log("worship word and wonders night")
+// }
+// else if(today=="friday"){ 
+//     console.log("worship word and wonders night")
     
-}
-else if(today=="saturday"){
-    console.log("home cell fellowship")
+// }
+// else if(today=="saturday"){
+//     console.log("home cell fellowship")
     
-}
-else
-    console.log("sunday service")
+// }
+// else
+//     console.log("sunday service")
     
 
 
+let today="sunday";
+switch (today) {
+    case "monday":
+        console.log("no service");
+        
+        break;
+        case "tuesday":
+            console.log("healing and deliverance serice");
+            break;
+
+            case "wednesday":
+            console.log("power holy communion service");
+            break;
+
+            case "thursday":
+            console.log("counselors meeting");
+            break;
+
+            case "friday":
+            console.log("worship word and wonders night");
+            break;
+
+            case "saturday":
+            console.log("home cell fellowship");
+            break;
+
+            case "sunday":
+            console.log("sunday service");
+            break;
+            
+            
+    default:
+        console.log("invalid value");
+        break;
+
+}
