@@ -142,6 +142,22 @@ console.log(typeof('10')==(typeof(10)))
 // let now= new Date(). getFullYear();
 // console.log(now);
 
-let now=new Date(). getMonth();
-console.log(now);
-        
+// let now=new Date()
+// console.log(now.getMonth())
+
+
+// let now=new Date()
+// console.log(now.getDate())
+
+// let now=new Date()
+// console.log(now.getDay())
+
+// let now=new Date()
+// console.log(now.getHours())
+
+// let now=new Date()
+// console.log(now.getMinutes())
+
+let sec= Date .now() 
+console.log(sec)
+
