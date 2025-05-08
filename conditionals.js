@@ -75,39 +75,58 @@
     
 
 
-let today="sunday";
-switch (today) {
-    case "monday":
-        console.log("no service");
+// let today="sunday";
+// switch (today) {
+//     case "monday":
+//         console.log("no service");
         
-        break;
-        case "tuesday":
-            console.log("healing and deliverance serice");
-            break;
+//         break;
+//         case "tuesday":
+//             console.log("healing and deliverance serice");
+//             break;
 
-            case "wednesday":
-            console.log("power holy communion service");
-            break;
+//             case "wednesday":
+//             console.log("power holy communion service");
+//             break;
 
-            case "thursday":
-            console.log("counselors meeting");
-            break;
+//             case "thursday":
+//             console.log("counselors meeting");
+//             break;
 
-            case "friday":
-            console.log("worship word and wonders night");
-            break;
+//             case "friday":
+//             console.log("worship word and wonders night");
+//             break;
 
-            case "saturday":
-            console.log("home cell fellowship");
-            break;
+//             case "saturday":
+//             console.log("home cell fellowship");
+//             break;
 
-            case "sunday":
-            console.log("sunday service");
-            break;
+//             case "sunday":
+//             console.log("sunday service");
+//             break;
             
             
-    default:
-        console.log("invalid value");
-        break;
+//     default:
+//         console.log("invalid value");
+//         break;
 
-}
+// }
+
+
+// let age= prompt ('Enter your age:');
+// if (age >==18) {
+//     console.log('You are old enough to drive');
+    
+// } else
+
+
+// let number= 25;
+// let string= number.toString();
+
+
+let value= 0;
+value = Number('5');
+value = Number(true);
+value = Number(false);
+value = Number(null);
+value = Number('Hello, World!');

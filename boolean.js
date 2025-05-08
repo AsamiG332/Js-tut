@@ -158,6 +158,71 @@ console.log(typeof('10')==(typeof(10)))
 // let now=new Date()
 // console.log(now.getMinutes())
 
-let sec= Date .now() 
-console.log(sec)
+// let sec= Date .now() 
+// console.log(sec)
 
+
+
+// const myname = prompt("Gloria");
+
+// if (myname) {
+//   if (myname.length > 7) {
+//     console.log("my name is long.");
+//   } else {
+//     console.log("my name is short.");
+//   }
+// } else {
+//   console.log("no name was entered.");
+// }
+
+// let firstName = 'Asabeneh';
+// let lastName = 'Yetayeh';
+
+// if (firstName.length > lastName.length) {
+//   console.log(`Your first name, ${firstName}, is longer than your last name, ${lastName}.`);
+// } else if (firstName.length < lastName.length) {
+//   console.log(`Your last name, ${lastName}, is longer than your first name, ${firstName}.`);
+// } else {
+//   console.log(`Your first name, ${firstName}, and your last name, ${lastName}, have the same length.`);
+// }
+
+// let myAge = 250;
+// let yourAge = 25;
+
+// const ageDifference = myAge - yourAge;
+
+// console.log(`I am ${ageDifference} years older than you.`);
+
+// const currentYear = new Date().getFullYear();
+
+// const Base=prompt('Enter Base ');
+// const Height=prompt('Enter Height');
+// const area=0.5*Base*Height
+// alert(`The are of the triangle is ${area}`)
+
+
+// const sideA=prompt("Enter side a");
+// const sideB=prompt("Enter side b");
+// const sideC=prompt("Enter side c");
+// const perimeter=parseInt(sideA) + parseInt(sideB) + parseInt(sideC)
+// alert(`the perimeter is ${perimeter}`)
+
+
+//pi r 2 
+// const PI= Math.PI
+// const R=prompt("Enter Radius")
+// const Area=PI*R**2
+// alert(`The area of a cycle is ${Area}`);
+
+
+
+
+
+// let a=prompt("Enter any value");
+// let isEven = a%2==0
+
+// if(isEven){
+//     alert("It's an even number")
+// }else {
+//     alert("it's an odd number")
+// }
