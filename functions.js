@@ -194,3 +194,43 @@
 //     return u*i
 // }total=gravity(4,6)
 // console.log(total);
+// function convertCelsiusToFahrenheit(Celsius) {
+//      return (Celsius * 9/5) + 32
+// }tempInFahrenheit =convertCelsiusToFahrenheit(34)
+// console.log(tempInFahrenheit);
+
+
+// function calculateBMI(w,h) {
+//      const BMI= w/(h*h)
+// }let category
+// if (BMI<18.5 ) {
+//    category='underweight'  
+// }else if (BMI >=18.5 && BMI <=24.9) {
+//      category='weight is normal'
+// } else if (BMI>=25 && BMI<=29.9) {
+//      category="overweight     "
+// } else {
+//      category='obessed'
+// } 
+     
+
+ function checkmonth(month) {
+     month=month.toLowerCase()
+ 
+ if (month==="september" || month==="october" || month==="november") {
+      return "Autumn";
+ }else if (month==="december" || month==="january" || month==="february") {
+      return "winter"
+ } else if (month==="march" || month==="april" || month==="may") {
+     return "sprimg"
+ } else if (month==="june" || month==="july" || month==="august"){ 
+     return "summer"
+ }else{ 
+      return "invalid month"
+}
+}
+     
+console.log(checkmonth("april"));
+
+
+
