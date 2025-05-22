@@ -214,23 +214,107 @@
 // } 
      
 
- function checkmonth(month) {
-     month=month.toLowerCase()
+//  function checkmonth(month) {
+//      month=month.toLowerCase()
  
- if (month==="september" || month==="october" || month==="november") {
-      return "Autumn";
- }else if (month==="december" || month==="january" || month==="february") {
-      return "winter"
- } else if (month==="march" || month==="april" || month==="may") {
-     return "sprimg"
- } else if (month==="june" || month==="july" || month==="august"){ 
-     return "summer"
- }else{ 
-      return "invalid month"
-}
-}
+//  if (month==="september" || month==="october" || month==="november") {
+//       return "Autumn";
+//  }else if (month==="december" || month==="january" || month==="february") {
+//       return "winter"
+//  } else if (month==="march" || month==="april" || month==="may") {
+//      return "sprimg"
+//  } else if (month==="june" || month==="july" || month==="august"){ 
+//      return "summer"
+//  }else{ 
+//       return "invalid month"
+// }
+// }
      
-console.log(checkmonth("april"));
+// console.log(checkmonth("april"));
+
+
+// function findMax(a,b,c) {
+//      let max=a;
+
+//      if (b > max) {
+//           max=b
+//      }else if (c > max) {
+//           max=c;
+//      } return  max;
+          
+//      }
+
+// console.log(findMax(10,3,0));
 
 
 
+// function solveLinEquation(a,b,c,x,y) {
+//      return a*x+b*y+c;
+// }console.log(solveLinEquation(2, 3, -6, 1, 1));
+
+
+
+
+// function solveQuadEquation(a,x,b,c) {
+//      return a*x*x+b*x+c;
+// }console.log(solveQuadEquation(3,5,3,1));
+
+
+// function  printArray(arr) {
+//     for (let i = 0; i < arr.length; i++) {
+//      console.log(arr[i]);
+
+     
+//     } 
+// }printArray(['a,b,c,d,e'])
+
+// function showDateTime(params) {
+     
+// }
+
+// function swap(x,y) {
+//      return  `x=> ${y}, y=>${x} `
+     
+// }
+// console.log(swap(3,8)
+// ;)
+
+//                function  reverseArray(arry) {
+//                     return arry.reverse()
+//                }console.log(reverseArray([1,2,3,5,6,7,8]));
+
+
+
+//                function  capitalizeArray(arr) {
+//                     return arr.map(turn => turn .toUpperCase()); 
+//                }console.log(capitalizeArray(['Lagos,abuja, kaduna, imo']));
+               
+// let item=[];
+//                function addItem(items) {
+//                     item.push(items);
+//                     return items
+//                }console.log(addItem('apple'));
+//                console.log(addItem('orange'));
+               
+               
+
+               // let empty=[]
+               // function objects(items1) {
+               //      empty.push(items1);
+               //      return items1
+               // }console.log(objects(['Gloria']));
+               // console.log(objects(['Darasimi']));
+               // console.log(objects(["Tomisin"]));
+               // console.log(objects(['Daniels']));
+               
+               
+               let things =['Apple', 'Banana', 'Orange', 'Mango', 'pea', 'cashew', 'pawpaw'];
+               function thingsName(index1) {
+                    if (index1 >=0 && things < things.length) {
+                         things.slice(index1,0);
+                    } else {
+                        console.log("Invalid index");
+                         
+                    }return things;
+               }console.log(thingsName(1));
+               
